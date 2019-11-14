@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="DShop.Api.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="src" t="Include">
+        <e p="DShop.Api" t="IncludeRecursive">
+          <e p="appsettings.development.json" t="Include" />
+          <e p="appsettings.docker.json" t="Include" />
+          <e p="appsettings.json" t="Include" />
+          <e p="appsettings.production.json" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Controllers" t="Include">
+            <e p="BaseController.cs" t="Include" />
+            <e p="CartController.cs" t="Include" />
+            <e p="CustomersController.cs" t="Include" />
+            <e p="HomeController.cs" t="Include" />
+            <e p="OperationsController.cs" t="Include" />
+            <e p="OrdersController.cs" t="Include" />
+            <e p="ProductsController.cs" t="Include" />
+          </e>
+          <e p="DShop.Api.csproj" t="IncludeRecursive" />
+          <e p="Framework" t="Include">
+            <e p="AdminAuth.cs" t="Include" />
+          </e>
+          <e p="Messages" t="Include">
+            <e p="Commands" t="Include">
+              <e p="Customers" t="Include">
+                <e p="AddProductToCart.cs" t="Include" />
+                <e p="ClearCart.cs" t="Include" />
+                <e p="CreateCustomer.cs" t="Include" />
+                <e p="DeleteProductFromCart.cs" t="Include" />
+              </e>
+              <e p="Orders" t="Include">
+                <e p="ApproveOrder.cs" t="Include" />
+                <e p="CancelOrder.cs" t="Include" />
+                <e p="CompleteOrder.cs" t="Include" />
+                <e p="CreateOrder.cs" t="Include" />
+              </e>
+              <e p="Products" t="Include">
+                <e p="CreateProduct.cs" t="Include" />
+                <e p="DeleteProduct.cs" t="Include" />
+                <e p="UpdateProduct.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Models" t="Include">
+            <e p="Customers" t="Include">
+              <e p="Cart.cs" t="Include" />
+              <e p="CartItem.cs" t="Include" />
+              <e p="Customer.cs" t="Include" />
+            </e>
+            <e p="Identity" t="Include">
+              <e p="User.cs" t="Include" />
+            </e>
+            <e p="Operations" t="Include">
+              <e p="Operation.cs" t="Include" />
+            </e>
+            <e p="Orders" t="Include">
+              <e p="Order.cs" t="Include" />
+              <e p="OrderCustomer.cs" t="Include" />
+              <e p="OrderDetails.cs" t="Include" />
+              <e p="OrderItem.cs" t="Include" />
+            </e>
+            <e p="Products" t="Include">
+              <e p="Product.cs" t="Include" />
+            </e>
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.2" t="Include">
+                <e p="DShop.Api.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+          <e p="Properties" t="Include">
+            <e p="launchSettings.json" t="Include" />
+          </e>
+          <e p="Queries" t="Include">
+            <e p="BrowseCustomers.cs" t="Include" />
+            <e p="BrowseOrders.cs" t="Include" />
+            <e p="BrowseProducts.cs" t="Include" />
+            <e p="PagedQuery.cs" t="Include" />
+          </e>
+          <e p="Services" t="Include">
+            <e p="ICustomersService.cs" t="Include" />
+            <e p="IOperationsService.cs" t="Include" />
+            <e p="IOrdersService.cs" t="Include" />
+            <e p="IProductsService.cs" t="Include" />
+          </e>
+          <e p="Startup.cs" t="Include" />
+        </e>
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_DShop.Api.2067035006.00" t="ExcludeRecursive" />
+  </component>
+</project>

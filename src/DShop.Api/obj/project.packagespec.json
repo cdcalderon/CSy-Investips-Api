@@ -1,0 +1,56 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/carloscalderon/Dev/dotnet/Distributed/CSy-Investips.Api/src/DShop.Api/DShop.Api.csproj",
+    "projectName": "DShop.Api",
+    "projectPath": "/Users/carloscalderon/Dev/dotnet/Distributed/CSy-Investips.Api/src/DShop.Api/DShop.Api.csproj",
+    "outputPath": "/Users/carloscalderon/Dev/dotnet/Distributed/CSy-Investips.Api/src/DShop.Api/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/Users/carloscalderon/Dev/dotnet/Distributed/DNC-DShop.Common/src/DShop.Common/DShop.Common.csproj": {
+            "projectPath": "/Users/carloscalderon/Dev/dotnet/Distributed/DNC-DShop.Common/src/DShop.Common/DShop.Common.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "OpenTracing.Contrib.NetCore": {
+          "target": "Package",
+          "version": "[0.5.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
